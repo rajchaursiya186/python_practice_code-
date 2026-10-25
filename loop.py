@@ -1,4 +1,4 @@
-#  Find the maximum price from the list of dictionaries and return the dictionary with the maximum price.
+# #  Find the maximum price from the list of dictionaries and return the dictionary with the maximum price.
 # list = [
 #     {
 #         "name" : "raj",
@@ -14,8 +14,39 @@
 # for i in  list:
 #     price = i["price"]
 #     print(price > max)
-#     if price > max:
+#     if price < max:
 #         max = price
 #         listmax = i
 #         # print(i)
 # print(listmax)
+
+# # find the total price of all the items in the list of dictionaries and return the total price.
+
+# list = {
+#     "fan":100,
+#     "cooler":300,
+#     "T.V":2000,
+#     "A.C":3000
+# }
+
+# discount = []
+# total_price = 0
+# for i in list:
+#     total_price += list[i]
+#     if list[i] >= 1000:
+#         discount.append(int(list[i] * 0.10))
+#     else:
+#         discount.append(0)
+#         print(f"{i} : {list[i]}")
+
+# print(f"Total price  is : {total_price}")
+
+# total_discount = 0
+# for i in discount:
+#     total_discount += i
+# print(f"Total discount  is : {total_discount}")
+# print(f"Final payable amount : {total_price - total_discount}")
+
+
+# for (k,v),d in zip(list.items(),discount):
+#     print(k,v,d)
