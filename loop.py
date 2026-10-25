@@ -50,3 +50,11 @@
 
 # for (k,v),d in zip(list.items(),discount):
 #     print(k,v,d)
+
+## right triangle pattern
+
+for i in range(1, 5):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
