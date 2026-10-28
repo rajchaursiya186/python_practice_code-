@@ -73,13 +73,22 @@
 
 # --------------------------------------------------------------------------------------------------------
 
-##
-tuple1 = (1,2,3,4,5,6)
-sum = 0
-for i in tuple1:
-    if i%2 == 0 :
-          sum += i
+## sum of even number of tuple
+
+# tuple1 = (1,2,3,4,5,6)
+# sum = 0
+# for i in tuple1:
+#     if i%2 == 0 :
+#           sum += i
   
-print(sum)
+# print(sum)
 
+# --------------------------------------------------------------------------------------------------------
 
+## reverse the list whitout reveres() and sort()
+
+# list1 = [1,2,3,4,5]
+# temp = []
+# for i in list1:
+#     temp.insert(0,i)
+# print(temp)
