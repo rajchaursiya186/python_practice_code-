@@ -1,4 +1,5 @@
 # #  Find the maximum price from the list of dictionaries and return the dictionary with the maximum price.
+
 # list = [
 #     {
 #         "name" : "raj",
@@ -9,6 +10,7 @@
 #         "price" : 200
 #     }
 # ]
+
 # max = list[0]["price"]
 # listmax = list[0]
 # for i in  list:
@@ -19,6 +21,8 @@
 #         listmax = i
 #         # print(i)
 # print(listmax)
+
+# --------------------------------------------------------------------------------------------------------
 
 # # find the total price of all the items in the list of dictionaries and return the total price.
 
@@ -46,10 +50,10 @@
 #     total_discount += i
 # print(f"Total discount  is : {total_discount}")
 # print(f"Final payable amount : {total_price - total_discount}")
-
-
 # for (k,v),d in zip(list.items(),discount):
 #     print(k,v,d)
+
+# --------------------------------------------------------------------------------------------------------
 
 ## right triangle pattern
 
@@ -58,10 +62,24 @@
 #         print("*", end=" ")
 #     print()
 
-## 
+# --------------------------------------------------------------------------------------------------------
 
-list1 = [1,2,3,4,5,-1,-2,-3,-4,-5]
-for i in list1[:]:
-    if i < 0:
-        list1.remove(i)
-print(list1)
+##  remove negative numbers from the list
+# list1 = [1,2,3,4,5,-1,-2,-3,-4,-5]
+# for i in list1[:]:
+#     if i < 0:
+#         list1.remove(i)
+# print(list1)
+
+# --------------------------------------------------------------------------------------------------------
+
+##
+tuple1 = (1,2,3,4,5,6)
+sum = 0
+for i in tuple1:
+    if i%2 == 0 :
+          sum += i
+  
+print(sum)
+
+
