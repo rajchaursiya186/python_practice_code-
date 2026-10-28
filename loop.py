@@ -53,8 +53,15 @@
 
 ## right triangle pattern
 
-for i in range(1, 5):
-    for j in range(i):
-        print("*", end=" ")
-    print()
+# for i in range(1, 5):
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
 
+## 
+
+list1 = [1,2,3,4,5,-1,-2,-3,-4,-5]
+for i in list1[:]:
+    if i < 0:
+        list1.remove(i)
+print(list1)
