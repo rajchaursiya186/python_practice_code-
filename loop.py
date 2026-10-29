@@ -124,15 +124,33 @@
 #     print("*" * st)
     
 # --------------------------------------------------------------------------------------------------------
-duplicate_list = []
-count = 0
-list1 = [1,2,3,4,4,5,1,5,2]
-for i in range(len(list1)):
-    dup = list1[i]
-    index = i
-    for m in range(index + 1,len(list1)):
-        if dup == list1[m]:
-           duplicate_list.append(dup)
-           count += 1
-print(f"Duplicate Number : {duplicate_list}")
-print(f"Duplicate Count : {count}")
+
+## count and display duplicate numbers from the list without using set() and count() function.
+
+# duplicate_list = []
+# count = 0
+# list1 = [1,2,3,4,4,5,1,5,2]
+# for i in range(len(list1)):
+#     dup = list1[i]
+#     index = i
+#     for m in range(index + 1,len(list1)):
+#         if dup == list1[m]:
+#            duplicate_list.append(dup)
+#            count += 1
+# print(f"Duplicate Number : {duplicate_list}")
+# print(f"Duplicate Count : {count}")
+
+# --------------------------------------------------------------------------------------------------------
+
+## find common elements from two lists and return the common elements in a new list without using set() function.
+
+# list1 = [1,2,3,4,5,6]
+# list2 = [2,3,4,5]
+# common_list = []
+# for i in list1:
+#     for j in list2:
+#         if i == j :
+#             common_list.append(i)
+# print(common_list)
+
+# --------------------------------------------------------------------------------------------------------
