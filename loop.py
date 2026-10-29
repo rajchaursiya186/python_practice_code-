@@ -92,3 +92,21 @@
 # for i in list1:
 #     temp.insert(0,i)
 # print(temp)
+
+# --------------------------------------------------------------------------------------------------------
+
+total_company_salary = 0
+for i in range(1,5):
+    print(f"Enter salary for Emplotee {i} :")
+    total_salary = 0
+    for j in range(1,4):
+        salary = int(input(f"Month {j} : "))
+        total_salary += salary
+    print(f"Total Salary : {total_salary}")
+    total_company_salary += total_salary
+    if total_salary > 60000:
+        print("High Earner")
+    print()
+print(f"Total Company Salary : {total_company_salary}")
+print()
+
